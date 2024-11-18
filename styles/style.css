@@ -250,6 +250,123 @@ h2 {
   font-weight: lighter;
   max-width: 900px;
 }
+.advantages_container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.advantages_box {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.advantages__buttons img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.advantages_icons_container {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages_card {
+  height: 100%;
+  min-width: 160px;
+}
+h2 {
+  font-size: 34px;
+  font-weight: lighter;
+}
+.advantages_card_img {
+  width: 100%;
+  height: auto;
+}
+.about_text {
+  line-height: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.about_Us {
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.subscription_container {
+  width: 100%;
+  height: auto;
+  background-color: #ffa019;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subscription_box {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  display: flex;
+}
+.subscription_text {
+  max-width: 230px;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+.subscription__input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 23%;
+  margin-top: 10px;
+  border: none;
+  background-color: #ffa019;
+  border: #ffffff 1px solid;
+  color: #fff;
+  outline: 0;
+}
+.subscription__input::placeholder {
+  color: #fff;
+  opacity: 0.9;
+}
+.subscription_button {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  user-select: none;
+  background: rgb(255, 255, 255);
+  padding: 0.7em 4em;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+  border: none;
+  width: 23%;
+}
+.subscription_button:hover {
+  background-color: #e6e6e6;
+}
+.second_floor {
+  height: 100%;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.features {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.features_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: lighter;
+  max-width: 900px;
+}
 .features_text {
   font-size: 20px;
   font-weight: lighter;
@@ -313,7 +430,6 @@ h2 {
   font-size: 18px;
   font-weight: bold;
 }
-
 .consultants_title {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -330,7 +446,7 @@ h2 {
 .consultant_img {
   max-width: 182px;
   width: 100%;
-  height: 200px;
+  height: 220px;
 }
 .consultant_info {
   padding-left: 20px;
@@ -363,324 +479,10 @@ h2 {
   text-align: center;
   font-weight: bold;
   font-size: 50px;
-  word-spacing: 45px;
+  word-spacing: 50px;
   letter-spacing: 3px;
   color: #9b9b9b;
   padding-top: 100px;
   padding-bottom: 100px;
   user-select: none;
-}
-.useful_info_container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.useful_info {
-  padding-bottom: 50px;
-}
-.useful_info_nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-.useful_info_nav-card {
-  transition: 1s;
-  object-fit: cover;
-}
-.useful_info_nav-card img {
-  width: 100%;
-  height: 270;
-}
-.useful_info_nav-card:hover {
-  scale: 1.05;
-}
-footer {
-  margin-top: 150px;
-}
-.footer_container {
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.footer_info {
-  color: #8191a6;
-  font-size: 15px;
-  max-width: 400px;
-  text-align: justify;
-}
-.footer_text {
-  padding-bottom: 20px;
-}
-.footer_nav {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.footer_nav_box {
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-}
-.footer_nav_article {
-  font-size: 18px;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-.footer_nav_button {
-  color: #8191a6;
-  font-size: 15px;
-  text-decoration: none;
-}
-.footer_nav_button:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 1200px) {
-  header {
-    padding: 20px;
-  }
-  .second_floor {
-    padding: 20px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  body {
-    width: 100%;
-  }
-  header {
-    padding: 20px;
-  }
-  .advantages_container {
-    padding: 20px;
-    width: 90%;
-  }
-  .subscription_box {
-    width: 90%;
-  }
-  .second_floor {
-    padding: 20px;
-  }
-  .catalog_container {
-    width: 95%;
-  }
-  .catalog_examples {
-    flex-wrap: wrap;
-  }
-  .example_card {
-    max-width: 20%;
-    height: auto;
-  }
-  .subscription_container {
-    padding: 20px;
-  }
-}
-@media (max-width: 991px) {
-  header {
-    padding: 20px;
-    height: 10%;
-  }
-
-  .menu {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    top: -100%;
-    left: 0%;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.5s;
-    padding-top: 100px;
-  }
-  header.open .menu {
-    transform: translateY(100%);
-  }
-
-  .header_logo {
-    z-index: 1;
-    font-size: 1.3rem;
-  }
-  .down_header button {
-    z-index: 10;
-  }
-  .nav_button {
-    margin-top: 20px;
-    font-size: 1.1rem;
-    text-align: center;
-    display: block;
-    width: fit-content;
-    margin-left: 0px;
-  }
-
-  .container {
-    width: 100%;
-  }
-  .main_info {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .main_content {
-    height: 400px;
-  }
-  .advantages_container {
-    padding: 20px;
-    width: 90%;
-  }
-  .advantages_card p {
-    font-size: 1rem;
-    margin-left: 2rem;
-    text-align: left;
-  }
-  .main_info_text {
-    font-size: 17px;
-    width: 90%;
-  }
-  .advantages_box {
-    padding: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .advantages_box h2 {
-    max-width: 50%;
-  }
-  .about_Us {
-    padding: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .about_text {
-    font-size: 15px;
-  }
-  .features {
-    padding: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .subscription_container {
-    width: 100%;
-  }
-  .subscription_box {
-    flex-direction: column;
-    padding: 10px;
-    align-items: center;
-  }
-  .subscription__input {
-    width: 70%;
-    margin-top: 20px;
-  }
-  .subscription_button {
-    margin-top: 20px;
-    width: 70%;
-  }
-  .second_floor {
-    max-width: 90%;
-    padding: 0px;
-  }
-  .features_container div p {
-    font-size: 17px;
-  }
-  .features_text {
-    font-size: 17px;
-  }
-  .advantages_icons_container {
-    flex-wrap: wrap;
-  }
-  .advantages_card {
-    width: 80%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  .advantages_card p {
-    margin-top: 20px;
-  }
-  .advantages_card img {
-    max-width: 30%;
-    width: 100%;
-    height: auto;
-  }
-  .catalog_examples {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .example_card {
-    max-width: 45%;
-    height: auto;
-    margin-top: 30px;
-  }
-  .catalog_nav_container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .catalog_nav {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .catalog_button {
-    margin-top: 10px;
-  }
-  .catalog_container {
-    width: 100%;
-  }
-  .subscription_box {
-    max-width: 100%;
-  }
-  .consultants {
-    width: 90%;
-  }
-  .consultants_container {
-    flex-direction: column;
-  }
-  .consultant_box {
-    margin-top: 20px;
-  }
-  .useful_info_container {
-    padding: 20px;
-  }
-  .useful_info_nav {
-    flex-wrap: wrap;
-  }
-  .useful_info_nav-card {
-    width: 45%;
-    height: auto;
-  }
-  .features_container {
-    flex-direction: column;
-  }
-  .features_container div {
-    width: 90%;
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .up_header {
-    flex-direction: column;
-    height: auto;
-    display: none;
-  }
-  .header_info {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-  .down_header {
-    height: fit-content;
-  }
-  .footer_container {
-    width: 90%;
-  }
-  .down_header img {
-    display: block;
-  }
-  .footer_nav {
-    flex-direction: column;
-  }
-  .footer_info {
-    max-width: 50%;
-  }
 }
